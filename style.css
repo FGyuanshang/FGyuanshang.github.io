@@ -1,0 +1,50 @@
+*{margin:0px;padding: 0px}
+body{background:url("bg.jpg") no-repeat center center fixed;background-size: cover; }
+
+.box{width: 1000px;margin: 10px auto;position: absolute;}
+
+.head{width: 1000px;height: 180px;background-color:rgba(255,255,255,0.4);box-shadow:inset 0 -3em 3em rgba(0,250,0,0.2);position: relative;left: 290px;right: 290;}
+.head_mu{position: absolute;bottom: 8px;opacity: 60%;}
+.head_tu img{width: 250px;height: 250px;float: left;}
+.head_top{float: left;position: absolute;margin-top: 70px;margin-left:210px; }
+.head_top h2{float: left;font-family: "楷体"}
+.head_top h4{float: left;margin-top:30px;margin-left: 10px;font-family: "楷体" }
+.head_top a{color:#FFFFE0;}
+.head_daohan{list-style: none;}
+.head_daohan li{float: left;margin-left: 20px;font-size: 20px;font-family:"隶书";margin-top:137px;}
+.head_daohan a{color:#FFFFE0;text-decoration: none;}
+.head_daohan a:active{color:#CCE099;text-decoration: none;}
+
+
+.box1{width: 1000px;margin:0px auto;margin-top: 30px;}
+.person{position: absolute;left: 290px;}
+.person tr th{border: 1px solid #73BF00;background-color:rgba(215,255,216,0.7);width: 230px;margin-left:10px; }
+.t{text-align: left;font-size: 20px;font-family: "隶书";height:35px;}
+.b{text-align: left;font-size: 15px;font-family: "楷体";height:45px;color: #474747;}
+
+.jieshao{width: 180px;position: absolute;left: 530px;width: 760px;background-color:rgba(215,255,216,0.7); font-family: "楷体"}
+.neirong{position: relative;left: 50px;width: 680px;}
+.jieshao img{width: 640px;height: 400px; }
+
+
+
+.box2{width: 1000px;margin: 0px auto; margin-top: 20px;position: absolute;left: 290px;}
+.p1{background-color:rgba(215,255,216,0.7);width: 1000px;margin-top:10px;height: 120px;}
+.p1 h1{font-family: "隶书";font-size: 30px;margin-left:10px; }
+.p1 h4{font-family: "隶书";margin-left:10px;font-size: 15px;font-weight: normal;}
+.p1 a{text-decoration:none;color: #084810}
+.p1 a:hover{color: #1bc632;}
+
+.box3{width: 1000px;margin: 0px auto; margin-top: 20px;position: relative;left: 250px;}
+#pic{position: relative;}
+#pic .list{margin-left:200px;list-style-type: none;}
+#pic .count{list-style-type: none;}
+#pic .list li{position: absolute;}
+#pic img{width: 800;height: 520px;}
+
+.box4{width: 1000px;margin: 0px auto; margin-top: 20px;position: absolute;left: 290px;}
+.mis{margin-left:140px; }
+
+
+.box5{width: 1000px;margin: 0px auto; margin-top: 20px;position: absolute;left: 290px;}
+.yuan{background-color:rgba(215,255,216,0.7);text-align: center;font-size: 50px;color: #474747;height: 480px;line-height: 9;font-family:"楷体"}

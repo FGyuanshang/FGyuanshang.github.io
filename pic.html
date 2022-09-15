@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>远山博客</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+   <div class="head_mu">
+    <audio src="醉清风.mp3" controls="controls">
+    </audio>
+   </div>
+<div class="box">
+
+  <div class="head">
+ 
+    <div class="head_tu"><img src="touxiang.png" /></div>
+    <div class="head_top">
+        <a href="index.html"><h2>远山🌾博客</h2><h4>欲买桂花同载酒，终不似，少年游。</h4></a>
+    </div>
+    <div class="head_daohan">
+        <li><a href="index.html">博客主页&nbsp&nbsp|</a></li>
+        <li><a href="log.html">博客日志&nbsp&nbsp|</a></li>
+        <li><a href="pic.html">照片分享&nbsp&nbsp|</a></li>
+        <li><a href="mic.html">音乐分享&nbsp&nbsp|</a></li>
+        <li><a href="yuans.html">关于远山</a></li>
+           </div>
+  </div>
+
+  <div class="box3">
+
+  <div id="pic">
+    <ul class="list">
+     <li><img class="s m1" src="1.jpg" alt="1"></li>
+     <li><img class="s m2"  src="2.jpg" alt="2"></li>
+     <li><img class="s m3"  src="3.jpg" alt="3"></li>
+     <li><img class="s m4"  src="4.jpg" alt="4"></li>
+     <li><img class="s m5"  src="richu.jpg" alt="5"></li>
+    </ul>
+    </div>
+
+  </div>
+
+
+
+
+
+  </div>
+
+
+
+</div>
+<script type="text/javascript">
+var index=0;
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("s");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    setInterval(ChangeImg,2000);
+
+</script>
+</body>
+</html>
